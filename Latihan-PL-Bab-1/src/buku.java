@@ -1,7 +1,7 @@
 public class buku {
-    int nim, kata;
-    String nama;
-    void inputBuku(int nim, int kata, String nama) {
+    int kata;
+    String nim, nama;
+    void inputBuku(String nim, int kata, String nama) {
         this.nim = nim;
         this.kata = kata;
         this.nama = nama;
@@ -9,6 +9,10 @@ public class buku {
     void displayBuku() {
         System.out.println("NIM 	: " + nim);
         System.out.println("Nama  	: " + nama);
-        System.out.println("Jumlah Kata	: " + kata*30);
+        if (kata < 100 || kata > 500) {
+            System.out.println("Jumlah Kata	: Di luar ketentuan");
+        } else {
+            System.out.println("Jumlah Kata	: " + kata * 30);
+        }
     }
 }
