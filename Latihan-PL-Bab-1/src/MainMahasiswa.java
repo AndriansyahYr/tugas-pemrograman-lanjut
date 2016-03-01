@@ -27,9 +27,12 @@ public class MainMahasiswa {
             nama_mahasiswa = out.nextLine();
             jumlah_kata_perhalaman = my.nextInt();
             jumlah_mahasiswa.isiData(nim,nama_mahasiswa,jumlah_kata_perhalaman);
-            jumlah_mahasiswa.Hitung();
+          
         }
         System.out.println();
-        
+        for (int i = 0; i <jum_mhs; i++) {
+            jumlah_mahasiswa.Tampil();
+            jumlah_mahasiswa.Hitung();
+        }
     }
 }

@@ -22,9 +22,10 @@ public class Mahasiswa {
         this.nama_mahasiswa = nama_mhs;
         this.jumlah_kata_perhalaman = jumlah_kata;
     }
-        
-    void Hitung (){
+    void Tampil(){
         System.out.print(nim+","+nama_mahasiswa+","+jumlah_kata_perhalaman+"\n");
+    }    
+    void Hitung (){
         if(jumlah_kata_perhalaman > 100 && jumlah_kata_perhalaman < 500){
             System.out.print(nama_mahasiswa+","+30*jumlah_kata_perhalaman);   
         } else
