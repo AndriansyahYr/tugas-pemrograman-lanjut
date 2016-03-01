@@ -1,0 +1,4 @@
+-Class : TugasHilmi dan liatKata
+-Object : in dan liat
+-atribut : nama, kata, nim dan JumlahKata
+-behavior : main, InputData dan JumlahKata 
