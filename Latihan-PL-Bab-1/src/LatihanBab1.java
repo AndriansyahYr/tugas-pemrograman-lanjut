@@ -23,9 +23,8 @@ public class LatihanBab1 {
     }
  
     void Tampilkan(){
-        System.out.println("================================================");
-        System.out.println("------------------------------------------------");
         System.out.println("Tampilan AKhir");
+        System.out.println("------------------------------------------------");
         for (int i = 0; i < 5; i++) {
             System.out.println("Nama                     : "+Nama[i]);
             System.out.println("NIM                      : "+nim[i]);
