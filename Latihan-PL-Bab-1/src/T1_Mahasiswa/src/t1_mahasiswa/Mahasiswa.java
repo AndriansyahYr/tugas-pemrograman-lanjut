@@ -28,5 +28,7 @@ public class Mahasiswa {
             jumlahsemua = 30 * jumlahkata;
             System.out.println("Jumlah Seluruh Kata pada 30 halaman    : "+jumlahsemua);
         }
-        }
+        System.out.println(nim+" "+nama+" "+jumlahkata);
+        System.out.println(nama+" "+jumlahsemua);
+    }
     }

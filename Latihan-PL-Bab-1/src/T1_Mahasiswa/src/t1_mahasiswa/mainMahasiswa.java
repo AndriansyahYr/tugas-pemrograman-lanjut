@@ -16,6 +16,7 @@ public class mainMahasiswa {
         Mahasiswa mahasiswaN[] = new Mahasiswa[5];
         for (int i=0;i<mahasiswaN.length;i++){
             mahasiswaN[i] = new Mahasiswa();
+            System.out.println("5");
             System.out.println("=====Silahkan melengkapi data dibawah ini=====");
             System.out.print("Masukkan nama        : ");
             mahasiswaN[i].nama = inputnama.nextLine();
@@ -24,6 +25,7 @@ public class mainMahasiswa {
             System.out.print("Jumlah kata/halaman  : ");
             mahasiswaN[i].jumlahkata= inputjumkat.nextInt();
             mahasiswaN[i].tampillanMahasiswa();
+           
             System.out.println("==============================================");
     }
 }
