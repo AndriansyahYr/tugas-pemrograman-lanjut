@@ -1,0 +1,4 @@
+class = mahasiswa, mahasiswa1
+object = jumlah_mahasiswa
+atribut = nim, nama, jumlah kata perhalaman
+behavior = hitung
