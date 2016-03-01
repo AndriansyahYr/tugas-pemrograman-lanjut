@@ -6,5 +6,5 @@ behavior : output
 \\
 class : Data.java
 object : -
-atribut : nama_mahasiswa, nim, jumlah_kata_perhalaman
+atribut : nama_mahasiswa, nim, jumlah_kata_perhalaman, jumlahKata
 behavior : setData, getData
