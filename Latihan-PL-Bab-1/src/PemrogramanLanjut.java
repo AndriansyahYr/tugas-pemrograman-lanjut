@@ -11,7 +11,7 @@ public class PemrogramanLanjut {
     Scanner input = new Scanner(System.in);
     //Objek
     String [] namaMahasiswa= new String[5], NIM= new String[5];
-    int [] jumlahKata= new int[5];
+    int [] jumlahKata= new int[5], hasil= new int[5];
     //inisialisasi
     Tugas1 pingMahasiswa = new Tugas1();
     Tugas1 pingNIM = new Tugas1();
@@ -36,9 +36,17 @@ public class PemrogramanLanjut {
         System.out.println("=================================================");
         System.out.println("Nama Mahasiswa "+(i+1)+" \t\t\t : "+namaMahasiswa[i]);
         System.out.println("NIM  Mahasiswa "+(i+1)+" \t\t\t : "+NIM[i]);
-        System.out.println("Jumlah Kata/Halaman Mahasiswa "+(i+1)+" \t : "+jumlahKata[i]);   
-        System.out.println("Jumlah Kata Mahasiswa "+(i+1)+" \t\t : "+pingJumlahKata.getKata());
-        }//end for output
+        System.out.println("Jumlah Kata/Halaman Mahasiswa "+(i+1)+" \t : "+jumlahKata[i]);           
+
+        if ((jumlahKata[i]>100)&&(jumlahKata[i]<500)){
+            
+        hasil[i] = jumlahKata[i]*30; 
+        System.out.println("Jumlah Kata Mahasiswa "+(i+1)+" \t\t : "+hasil[i]);
+        }
+        else if ((jumlahKata[i]<100)||(jumlahKata[i]>500)){
+        System.out.println("Jumlah Kata Mahasiswa "+(i+1)+" \t\t : ERROR out of BOUND");            
+        }           
         
+        }  
+    }//end for output
     }
-}

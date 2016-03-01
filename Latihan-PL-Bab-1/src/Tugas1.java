@@ -5,7 +5,8 @@ package pemrogramanlanjut;
  * Kelas  : IF - H
  */
 public class Tugas1 {
-    private int jumlahKata,hasil;
+    private int jumlahKata;
+    private int [] hasil= new int[5];
     private String namaMahasiswa, NIM;
     
     public void setnamaMahasiswa (String M){
@@ -17,8 +18,4 @@ public class Tugas1 {
     public void setJumlahKata (int K){
         jumlahKata = K;
     }
-    public int getKata (){
-        int hasil = jumlahKata*30;
-        return hasil;
-    } 
 }
