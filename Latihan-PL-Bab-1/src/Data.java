@@ -16,10 +16,10 @@ public class Data {
         for(int i=0; i<5; i++){
             if(jumlah_kata_perhalaman[i]>100&&jumlah_kata_perhalaman[i]<500){
                 int jumlahKata = jumlah_kata_perhalaman[i]*30;
-                System.out.println(nim[i]+", "+nama_mahasiswa[i]+", "+jumlah_kata_perhalaman[i]+", "+jumlahKata);
+                System.out.println(nama_mahasiswa[i]+" "+jumlahKata);
             }
             else
-                System.out.println(nim[i]+", "+nama_mahasiswa[i]+", "+jumlah_kata_perhalaman[i]+", Gagal");
+                System.out.println(nama_mahasiswa[i]+" Gagal");
         }
     }
 }
