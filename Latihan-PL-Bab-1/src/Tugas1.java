@@ -14,7 +14,7 @@ public class Tugas1 {
     public void setNIM (String N){
         NIM = N;
     }
-    public void setnamaMahasiswa (int K){
+    public void setJumlahKata (int K){
         jumlahKata = K;
     }
     public int getKata (){
