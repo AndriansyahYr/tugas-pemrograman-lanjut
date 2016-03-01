@@ -52,7 +52,7 @@ public class main_mahasiswa {
 
             System.out.println("");
             
-             System.out.print("105,"+" eminem");
+             System.out.print("105,"+" eminem, ");
             jumlah_kata_perhalaman = in.nextInt();
             jumlah_mahasiswa.isiAtribut(nim="105", nama_mahasiswa="eminem", jumlah_kata_perhalaman);
             jumlah_mahasiswa.displayPesan();
