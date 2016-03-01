@@ -1,0 +1,4 @@
+Class 	: Buku, TugasPraktekPertama
+Object 	: buku , masukan
+atribut : NIM, namaMahasiswa,jumlahKata, totalKata;
+behavior: displayData, Buku(constructor) 
