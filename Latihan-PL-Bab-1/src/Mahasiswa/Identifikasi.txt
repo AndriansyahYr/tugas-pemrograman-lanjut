@@ -1,0 +1,5 @@
+Identifikasi
+Class   : Mahasiswa, MahasiswaMain
+Objek   : m
+Atribut : nim, namaMhs, jmlhKata
+Behavior: inputan, outputan
