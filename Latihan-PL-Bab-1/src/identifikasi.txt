@@ -1,0 +1,6 @@
+identifikasi
+
+class		: mahasiswa
+objek		: individu per mahasiswa (mahasiswa 1-5)
+atribut		: nama, nim, kata 
+tingkah laku	: jumlah kata
