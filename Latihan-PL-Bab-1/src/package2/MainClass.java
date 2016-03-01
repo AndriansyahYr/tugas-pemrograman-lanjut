@@ -13,6 +13,6 @@ public class MainClass {
 		
 		jumlahMahasiswa = input.nextInt();
 		objek.inputData(jumlahMahasiswa);	
-		
+		objek.displayData();
 	}
 }

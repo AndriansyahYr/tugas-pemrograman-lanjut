@@ -7,6 +7,7 @@ public class Mahasiswa {
 	private int jumlahMahasiswa;
 	int nim[];
 	int kataPerhalaman[];
+	int totalKata[];
 	String nama[];
 	
 	Scanner input = new Scanner(System.in);
@@ -16,19 +17,27 @@ public class Mahasiswa {
 		nim = new int[jumlahMahasiswa];
 		nama = new String[jumlahMahasiswa];
 		kataPerhalaman = new int[jumlahMahasiswa];
+		totalKata = new int[jumlahMahasiswa];
 		
 		System.out.println("```");
 		for (int i = 0; i < jumlahMahasiswa; i++) {
 			nim[i] = input.nextInt();
-			System.out.print(",");
+			System.out.print(", ");
 			nama[i] = input.next();
-			System.out.print(",");
+			System.out.print(", ");
 			kataPerhalaman[i] = input.nextInt();
+			totalKata[i] = kataPerhalaman[i] * 30;
 		}
 		System.out.println("```");
 	}
 	
 	public void displayData () {
-	
+		System.out.println("```");
+		for (int i = 0; i < jumlahMahasiswa; i++) {
+			System.out.print(nama[i]);
+			System.out.print(", ");
+			System.out.println(totalKata[i]);
+		}
+		System.out.println("```");
 	}
 }
