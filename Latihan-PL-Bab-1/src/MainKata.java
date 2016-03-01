@@ -21,6 +21,16 @@ public class MainKata {
     jumlah_mahasiswa.displayKata();
     
     
+	System.out.print("101"+" paijo ");
+    
+    jumlah_kata_perhalaman = in.nextInt();
+    
+    jumlah_mahasiswa.NIM(nim = "101 ");
+    jumlah_mahasiswa.Nama(nama_mahasiswa = "paijo");
+    jumlah_mahasiswa.jumlahKata(jumlah_kata_perhalaman);
+    jumlah_mahasiswa.displayKata();
+
+
     System.out.print("102"+" lulu ");
     jumlah_kata_perhalaman = in.nextInt();
     
@@ -46,16 +56,6 @@ public class MainKata {
     
     jumlah_mahasiswa.NIM(nim = "104 ");
     jumlah_mahasiswa.Nama(nama_mahasiswa = "lili");
-    jumlah_mahasiswa.jumlahKata(jumlah_kata_perhalaman);
-    jumlah_mahasiswa.displayKata();
-    
-    
-    System.out.print("105"+" jojo ");
-    
-    jumlah_kata_perhalaman = in.nextInt();
-    
-    jumlah_mahasiswa.NIM(nim = "105 ");
-    jumlah_mahasiswa.Nama(nama_mahasiswa = "jojo");
     jumlah_mahasiswa.jumlahKata(jumlah_kata_perhalaman);
     jumlah_mahasiswa.displayKata();
     
