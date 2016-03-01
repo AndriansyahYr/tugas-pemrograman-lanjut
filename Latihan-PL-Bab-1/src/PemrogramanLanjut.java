@@ -10,19 +10,30 @@ public class PemrogramanLanjut {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
-    String namaMahasiswa, NIM, jumlahKata;
+    //Objek
+    String namaMahasiswa, NIM;
+    int jumlahKata;
     
+        //Mahasiswa 1
         Tugas1 pingMahasiswa = new Tugas1();
-        System.out.print("Masukkan Nama Mahasiswa 1 \t\t : ");
+        System.out.print("Masukkan Nama Mahasiswa 1 \t\t\t : ");
+        Tugas1 pingNIM = new Tugas1();
         namaMahasiswa = input.next();
-        System.out.print("Masukkan NIM Mahasiswa 1  \t\t : ");
+        System.out.print("Masukkan NIM Mahasiswa 1  \t\t\t : ");
         NIM = input.next();
-        System.out.print("Masukkan Jumlah Kata  Mahasiswa 1 \t : ");
-        jumlahKata = input.next();
+        Tugas1 pingJumlahKata = new Tugas1();
+        System.out.print("Masukkan Jumlah Kata/Halaman Mahasiswa 1 \t : ");
+        jumlahKata = input.nextInt();
         
         pingMahasiswa.setnamaMahasiswa(namaMahasiswa);
+        pingNIM.setNIM(NIM);
+        pingJumlahKata.setJumlahKata(jumlahKata);
         
-        System.out.print("Nama Mahasiswa 1 : "+namaMahasiswa);
+        System.out.println("===================================================");
+        System.out.println("Nama Mahasiswa 1 \t\t\t : "+namaMahasiswa);
+        System.out.println("NIM  Mahasiswa 1 \t\t\t : "+NIM);
+        System.out.println("Jumlah Kata/Halaman Mahasiswa 1 \t : "+jumlahKata);        
+        System.out.println("Jumlah Kata Mahasiswa 1 \t\t : "+pingJumlahKata.getKata());
         
     }  
     }
