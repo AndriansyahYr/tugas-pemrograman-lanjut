@@ -1,4 +1,11 @@
+Bayangan
 class Mahasiswa
 object mahasiswa1, mahasiswa2, mahasiswa n
 atribut nim, nama, kataPerhalaman
+behavior totalKata
+
+Implementasi
+class Mahasiswa
+object objek.inputData; objeck.displayData;
+atribut jumlahMahasiswa
 behavior totalKata

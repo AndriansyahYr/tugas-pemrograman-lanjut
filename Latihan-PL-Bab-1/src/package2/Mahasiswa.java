@@ -36,7 +36,13 @@ public class Mahasiswa {
 		for (int i = 0; i < jumlahMahasiswa; i++) {
 			System.out.print(nama[i]);
 			System.out.print(", ");
+			if (kataPerhalaman[i] < 100) {
+				System.out.println("Gagal");
+			} else if (kataPerhalaman[i] > 500) {
+				System.out.println("Gagal");
+			} else {
 			System.out.println(totalKata[i]);
+			}
 		}
 		System.out.println("```");
 	}
