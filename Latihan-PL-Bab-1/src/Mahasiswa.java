@@ -27,14 +27,14 @@ public class Mahasiswa {
     
     void displayPesan(){
         if (jumlah_kata_perhalaman > 500){
-            System.out.println(nim+","+nama_mahasiswa+","+"melebihi batas");
+            System.out.println(nama_mahasiswa+","+"melebihi batas");
         }
         
         else if (jumlah_kata_perhalaman < 100){
-            System.out.println(nim+","+nama_mahasiswa+","+"kata kurang");
+            System.out.println(nama_mahasiswa+","+"kata kurang");
         }
         else{
-            System.out.println(nim+","+nama_mahasiswa+","+jumlah_kata_perhalaman*30);
+            System.out.println(nama_mahasiswa+","+jumlah_kata_perhalaman*30);
         }
             
         
