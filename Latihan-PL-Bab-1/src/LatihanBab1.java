@@ -21,4 +21,16 @@ public class LatihanBab1 {
         System.out.println("================================================");
         } 
     }
+    void Tampilkan(){
+        System.out.println("================================================");
+        System.out.println("------------------------------------------------");
+        System.out.println("Tampilan AKhir");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Nama                     : "+Nama[i]);
+            System.out.println("NIM                      : "+nim[i]);
+            System.out.println("Jumlah Kata per halaman  : "+Kata[i]);
+            System.out.println("Total kata yang ditulis  : "+sum[i]);
+            System.out.println("------------------------------------------------");
+        }
+    }
 }
