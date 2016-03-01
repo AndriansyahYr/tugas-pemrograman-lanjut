@@ -6,5 +6,6 @@ public class Test {
         LatihanBab1 objek1 = new LatihanBab1();
         objek1.getinputData();
         objek1. Tampilkan();
-    }
+        objek1.Hitung();
+    }  
 }
