@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package latihan.bab1;
 
-/**
- *
- * @author Waf
- */
 public class Test {
-    
+    public static void main(String[] args) {
+        LatihanBab1 objek1 = new LatihanBab1();
+        objek1.getinputData();
+    }
 }

@@ -3,16 +3,22 @@ package latihan.bab1;
 import java.util.Scanner;
 
 public class LatihanBab1 {
-    String Nama;
-    Long nim;
-    int jumlahM, kata;
-    int [] data;
+    String[] Nama = new String[5], nim =  new String[5];
+    int[] Kata = new int [5];
+    int[] sum = new int [5];
     
-    void inputData(String nama, Long nim, int jumlahM, int kata){
+    void getinputData(){
         Scanner in = new Scanner (System.in);
-        System.out.print("Masukkan Jumlah mahasiswa : ");
-        jumlahM = in.nextInt();
-        int [] data = new int [jumlahM];
-        
+        System.out.println("================================================");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Data mahasiswa "+(i+1));
+            System.out.print("Nama                      : ");
+            Nama[i] = in.next();
+            System.out.print("NIM                       : ");
+            nim[i] = in.next();
+            System.out.print("Jumlah Kata per halaman   : ");
+            Kata[i] = in.nextInt();
+        System.out.println("================================================");
+        } 
     }
 }
