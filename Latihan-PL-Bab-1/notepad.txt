@@ -1,0 +1,4 @@
+Class : Mahasiswa, MainMahasiswa
+Object : jumlah_mahasiswa
+Atribut : nama_mahasiswa, nim, jumlah_kata_perhalaman
+Behavior : isiData
