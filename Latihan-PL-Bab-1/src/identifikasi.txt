@@ -1,0 +1,10 @@
+class Mahasiswa
+objek Mahasiswa1,2,3...
+atribut nama,nim,jumlah kata
+method 
+setMahasiswa
+setjumlah_kata_perhalaman
+getJumlahtot
+getJumlahKata
+getNama_Mahasiswa
+getNIM
