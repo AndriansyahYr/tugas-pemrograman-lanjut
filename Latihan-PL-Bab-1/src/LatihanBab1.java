@@ -21,20 +21,7 @@ public class LatihanBab1 {
         System.out.println("================================================");
         } 
     }
-    void Hitung(){
-        for (int i = 0; i < 5; i++) {
-            if (Kata[i]>100 && Kata[i]<500){
-                sum[i] = Kata[i]*30;
-            }
-            else if (Kata[i]<100){
-                System.out.println("Error, Jumlah Kata anda Kurang dari semestinya");
-            }
-            else{
-                System.out.println("Error, Jumlah Kata anda Melebihi semestinya");
-            }
-        }
-        
-    }
+ 
     void Tampilkan(){
         System.out.println("================================================");
         System.out.println("------------------------------------------------");
@@ -43,7 +30,16 @@ public class LatihanBab1 {
             System.out.println("Nama                     : "+Nama[i]);
             System.out.println("NIM                      : "+nim[i]);
             System.out.println("Jumlah Kata per halaman  : "+Kata[i]);
-            System.out.println("Total kata yang ditulis  : "+sum[i]);
+            if (Kata[i]>100 && Kata[i]<500){
+                sum[i] = Kata[i]*30;
+                System.out.println("Total Kata yang ditulis  : "+sum[i]);
+            }
+            else if (Kata[i]<100){
+                System.out.println("Error, Jumlah Kata anda Kurang dari semestinya");
+            }
+            else{
+                System.out.println("Error, Jumlah Kata anda Melebihi semestinya");
+            }
             System.out.println("------------------------------------------------");
         }
     }
