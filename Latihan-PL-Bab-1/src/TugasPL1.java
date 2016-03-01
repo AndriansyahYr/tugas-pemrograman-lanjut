@@ -18,9 +18,12 @@ public class TugasPL1 {
             jumlah_kata_perhalaman[i] = in.nextInt();
             in.nextLine();
         }
+        output(nama_mahasiswa, nim, jumlah_kata_perhalaman);
+    }
+    static void output(String[] nama, long[] nim, int[] jkp){
         System.out.println("\noutput : ");
         Data myData = new Data();
-        myData.setData(nama_mahasiswa, nim, jumlah_kata_perhalaman);
+        myData.setData(nama, nim, jkp);
         myData.getData();
     }
     
