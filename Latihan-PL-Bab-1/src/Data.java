@@ -1,8 +1,6 @@
 package tugaspl1;
-import java.util.Scanner;
 
 public class Data {
-    Scanner in = new Scanner(System.in);
     private String[] nama_mahasiswa = new String[5];
     private long[] nim = new long[5];
     private int[] jumlah_kata_perhalaman = new int[5];
