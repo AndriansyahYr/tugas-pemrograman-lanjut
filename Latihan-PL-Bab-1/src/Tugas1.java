@@ -18,7 +18,7 @@ public class Tugas1 {
         jumlahKata = K;
     }
     public int getKata (){
-        int hasil = jumlahKata*300;
+        int hasil = jumlahKata*30;
         return hasil;
     } 
 }

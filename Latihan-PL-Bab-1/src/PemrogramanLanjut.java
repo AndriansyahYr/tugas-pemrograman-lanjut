@@ -9,31 +9,36 @@ public class PemrogramanLanjut {
 
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    
     //Objek
-    String namaMahasiswa, NIM;
-    int jumlahKata;
-    
-        //Mahasiswa 1
-        Tugas1 pingMahasiswa = new Tugas1();
-        System.out.print("Masukkan Nama Mahasiswa 1 \t\t\t : ");
-        Tugas1 pingNIM = new Tugas1();
-        namaMahasiswa = input.next();
-        System.out.print("Masukkan NIM Mahasiswa 1  \t\t\t : ");
-        NIM = input.next();
-        Tugas1 pingJumlahKata = new Tugas1();
-        System.out.print("Masukkan Jumlah Kata/Halaman Mahasiswa 1 \t : ");
-        jumlahKata = input.nextInt();
+    String [] namaMahasiswa= new String[5], NIM= new String[5];
+    int [] jumlahKata= new int[5];
+    //inisialisasi
+    Tugas1 pingMahasiswa = new Tugas1();
+    Tugas1 pingNIM = new Tugas1();
+    Tugas1 pingJumlahKata = new Tugas1();
+        //for input
+        for (int i = 0; i < 5; i++) {
+
+        System.out.print("Masukkan Nama Mahasiswa "+(i+1)+" \t\t\t : ");        
+        namaMahasiswa[i] = input.next();
+        System.out.print("Masukkan NIM Mahasiswa  "+(i+1)+" \t\t\t : ");
+        NIM [i]= input.next();        
+        System.out.print("Masukkan Jumlah Kata/Halaman Mahasiswa "+(i+1)+" \t : ");
+        jumlahKata [i] = input.nextInt();
+        System.out.println("=================================================");
         
-        pingMahasiswa.setnamaMahasiswa(namaMahasiswa);
-        pingNIM.setNIM(NIM);
-        pingJumlahKata.setJumlahKata(jumlahKata);
+        pingMahasiswa.setnamaMahasiswa(namaMahasiswa[i]);
+        pingNIM.setNIM(NIM[i]);
+        pingJumlahKata.setJumlahKata(jumlahKata[i]);
+        }//end for input
+        //for output
+        for (int i = 0; i < 5; i++) {                 
+        System.out.println("=================================================");
+        System.out.println("Nama Mahasiswa "+(i+1)+" \t\t\t : "+namaMahasiswa[i]);
+        System.out.println("NIM  Mahasiswa "+(i+1)+" \t\t\t : "+NIM[i]);
+        System.out.println("Jumlah Kata/Halaman Mahasiswa "+(i+1)+" \t : "+jumlahKata[i]);   
+        System.out.println("Jumlah Kata Mahasiswa "+(i+1)+" \t\t : "+pingJumlahKata.getKata());
+        }//end for output
         
-        System.out.println("===================================================");
-        System.out.println("Nama Mahasiswa 1 \t\t\t : "+namaMahasiswa);
-        System.out.println("NIM  Mahasiswa 1 \t\t\t : "+NIM);
-        System.out.println("Jumlah Kata/Halaman Mahasiswa 1 \t : "+jumlahKata);        
-        System.out.println("Jumlah Kata Mahasiswa 1 \t\t : "+pingJumlahKata.getKata());
-        
-    }  
     }
+}
