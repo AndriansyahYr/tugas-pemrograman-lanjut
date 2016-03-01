@@ -7,8 +7,8 @@ public class buku {
         this.nama = nama;
     }
     void displayBuku() {
-        System.out.println("NIM 	: " + nim);
-        System.out.println("Nama  	: " + nama);
+        System.out.println("NIM             : " + nim);
+        System.out.println("Nama            : " + nama);
         if (kata < 100 || kata > 500) {
             System.out.println("Jumlah Kata	: Di luar ketentuan");
         } else {
