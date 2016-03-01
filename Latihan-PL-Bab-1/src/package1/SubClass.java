@@ -13,6 +13,6 @@ public class SubClass {
 	}
 	
 	public void displayData () {
-		System.out.println(namaMahasiswa);
+		System.out.println("Nama mahasiswa: "+namaMahasiswa);
 	}
 }	
