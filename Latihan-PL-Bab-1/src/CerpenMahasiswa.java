@@ -16,8 +16,8 @@ public class CerpenMahasiswa{
 	}
 	
 	public void showData(){
-		System.out.println("Nama		: "+nama);
-		System.out.println("NIM 		: "+nim);
+		System.out.println("Nama			: "+nama);
+		System.out.println("NIM 			: "+nim);
 		if(jumlah_kata_hal>100 && jumlah_kata_hal<500){
 			System.out.println("Jumlah Kata per Halaman : "+jumlah_kata_hal);
 			System.out.println("Jumlah Kata Satu Buku   : "+(jumlah_kata_hal * 30));
