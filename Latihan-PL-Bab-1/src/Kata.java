@@ -7,7 +7,7 @@ public class Kata {
     int jumlah_kata_perhalaman;
     
     void Nama(String nama_mahasiswa){
-        this.nama_mahasiswa = "paijo";
+        this.nama_mahasiswa = nama_mahasiswa;
     }
     void NIM(String nim){
         this.nim = nim;
@@ -16,9 +16,12 @@ public class Kata {
         this.jumlah_kata_perhalaman = jumlah_kata_perhalaman;
     }
     void displayKata(){
-        if (jumlah_kata_perhalaman < 100 || jumlah_kata_perhalaman > 500){
-            System.out.println("Jumlah kata tidak memenuhi syarat\n");
+        if (jumlah_kata_perhalaman < 100 ){
+            System.out.println("Jumlah kata kurang\n");
         }
+	else if (jumlah_kata_perhalaman > 500){
+		System.out.println("Jumlah kata melebihi batas\n");
+	}
         else {
             System.out.println(jumlah_kata_perhalaman * 30);
             System.out.println();
