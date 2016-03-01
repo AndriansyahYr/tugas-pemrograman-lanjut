@@ -5,6 +5,7 @@ public class MainMahasiswa {
             Mhs[i] = new Mahasiswa();
             Mhs[i].isiData();            
         }
+        System.out.println("======================");
         for (int j = 0; j < 5; j++) {
             System.out.println("Mahasiswa "+(j+1));
             Mhs[j].output();
