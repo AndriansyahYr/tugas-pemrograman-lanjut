@@ -13,7 +13,19 @@ public class Mahasiswa {
 	
 	public void inputData (int jumlahMahasiswa) {
 		this.jumlahMahasiswa = jumlahMahasiswa;
-		nim = new int[jumlahMahasiswa];	
+		nim = new int[jumlahMahasiswa];
+		nama = new String[jumlahMahasiswa];
+		kataPerhalaman = new int[jumlahMahasiswa];
+		
+		System.out.println("```");
+		for (int i = 0; i < jumlahMahasiswa; i++) {
+			nim[i] = input.nextInt();
+			System.out.print(",");
+			nama[i] = input.next();
+			System.out.print(",");
+			kataPerhalaman[i] = input.nextInt();
+		}
+		System.out.println("```");
 	}
 	
 	public void displayData () {
