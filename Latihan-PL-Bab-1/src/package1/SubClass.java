@@ -5,14 +5,23 @@ public class SubClass {
 	private String namaMahasiswa, nim;
 	private int kataPerhalaman, jumlahKata;
 	
-	public void inputData (String namaMahasiswa) {
+	public String inputNama (String namaMahasiswa) {
 		this.namaMahasiswa = namaMahasiswa;
-		//this.nim = nim;
-		//this.kataPerhalaman = kataPerhalaman;
-		//this.jumlahKata = jumlahKata;
+		return this.namaMahasiswa;
+	}
+	
+	public String inputNim (String nim) {
+		this.nim = nim;
+		return this.nim;
+	}
+	
+	public void inputKataPerhalaman (int kataPerhalaman) {
+		this.kataPerhalaman = kataPerhalaman;
 	}
 	
 	public void displayData () {
-		System.out.println("Nama mahasiswa: "+namaMahasiswa);
+		System.out.println("Nama\t: "+namaMahasiswa);
+		System.out.println("Nim\t: "+nim);
+		System.out.println("Kata per halaman: "+kataPerhalaman);
 	}
 }	
