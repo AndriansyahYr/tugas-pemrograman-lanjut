@@ -1,0 +1,4 @@
+Class : CerpenMahasiswa dan CerpenMahasiswa_main
+Object : mhs[]
+Atribute : nim, nama, jumlah_kata_hal
+Behavior : InputData, showData
