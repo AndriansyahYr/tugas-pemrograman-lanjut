@@ -14,23 +14,31 @@ import java.util.Scanner;
 public class main_mahasiswa {
     public static void main(String[] args) {
        Scanner in = new Scanner (System.in);
-       Scanner inn = new Scanner (System.in);
-        System.out.print("Jumlah Mahasiswa    : ");
-        int jumlah_mah = in.nextInt();
-        
-          for (int i = 0; i<jumlah_mah; i++) {
-            Mahasiswa jumlah_mahasiswa  = new Mahasiswa();
+       Scanner in2 = new Scanner (System.in);
+       int n = in2.nextInt();
+
+       Mahasiswa1 m[] = new Mahasiswa1[n];
+       Buku cerpen = new Buku();
+       
+       for(int i = 0; i<n ; i++){
+       
+           m[i] = new Mahasiswa1();
+           String nama, nim;
+           int kata;
+           System.out.println("nama :");
+            nama = in.nextLine();
+            System.out.println("nim :");
+            nim = in.nextLine();
+            System.out.println("kata");
+            kata = in2.nextInt();
+            m[i].setNim(nim);
+            m[i].setNama(nama);
+            m[i].jumlahKata();
+            System.out.println(cerpen.getJumlahHalaman()*kata);
             
-            System.out.println("");
-            System.out.print("");
-            String nim = inn.nextLine();
-            String nama_mahasiswa = inn.nextLine();
-            int jumlah_kata_perhalaman = in.nextInt();
-            
-            jumlah_mahasiswa.isiAtribut(nim, nama_mahasiswa, jumlah_kata_perhalaman);
-            jumlah_mahasiswa.displayPesan();
-        
-    }
+       }
+   
+      
     
 }
 

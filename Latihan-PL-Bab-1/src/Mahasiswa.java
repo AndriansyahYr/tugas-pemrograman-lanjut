@@ -1,44 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tugas_prak;
 
-import java.util.Scanner;
-
-/**
- *
- * @author isma
- */
 public class Mahasiswa {
-    String nim;
-    String nama_mahasiswa;
-    int jumlah_kata_perhalaman;
+    String nim_mahasiswa, nama;
+    int jumlahPutaran;
+    int jumlah_waktu;
+  
     
-    void isiAtribut(String nim, String nama_mahasiswa, int jumlah_kata_perhalaman){
-        
-       
-        
-        this.nim = nim;
-        this.nama_mahasiswa = nama_mahasiswa;
-        this.jumlah_kata_perhalaman = jumlah_kata_perhalaman;
+    public void set_nim(String nim_mahasiswa){
+        this.nim_mahasiswa = nim_mahasiswa;
+    }
+    public void set_nama(String nama){
+        this.nama = nama;
+    }
+    public void set_jumlahPutaran(int jumlahPutaran){
+        this.jumlahPutaran = jumlahPutaran;
+    }
+    public void set_jumlah_waktu(int jumlah_waktu){
+        this.jumlah_waktu = jumlah_waktu;
+    }
+    public int hitungPutaran(Lapangan a){
+        return this.jumlahPutaran*a.getKeliling();
     }
     
-    void displayPesan(){
-        if (jumlah_kata_perhalaman > 500){
-            System.out.println(nama_mahasiswa+","+"melebihi batas");
-        }
-        
-        else if (jumlah_kata_perhalaman < 100){
-            System.out.println(nama_mahasiswa+","+"kata kurang");
-        }
-        else{
-            System.out.println(nama_mahasiswa+","+jumlah_kata_perhalaman*30);
-        }
-            
-        
-    }
 }
-
-    
