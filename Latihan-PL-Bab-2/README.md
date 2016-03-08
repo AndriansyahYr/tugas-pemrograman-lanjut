@@ -1,4 +1,4 @@
-# Latihan Class dan Object
+# Latihan Costructor dan Instance Method
 
 ## Deskripsi Soal ##
 
