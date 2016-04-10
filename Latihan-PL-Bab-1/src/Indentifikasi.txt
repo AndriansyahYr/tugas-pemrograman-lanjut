@@ -1,0 +1,4 @@
+Class : Mahasiswa dan MainMahasiswa
+Object : Mhs
+Method : mainMethod, isiData, output
+Attribut : nim, nama_mahasiswa, jumlah_kata_perhalaman, jmlKata, jumlah_mahasiswa.
