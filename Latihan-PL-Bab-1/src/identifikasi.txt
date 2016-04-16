@@ -1,0 +1,6 @@
+Identifikasi soal :
+
+Class   : Mahasiswa 
+Object  : Seluruh mahasiswa
+Atribut :Nama, NIM, kaHal dan Total
+Method  : buku
