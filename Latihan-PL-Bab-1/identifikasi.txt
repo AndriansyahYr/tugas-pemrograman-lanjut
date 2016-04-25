@@ -1,0 +1,4 @@
+class :mahasiswa
+object : jumlah_mahasiswa
+atribut : nim, nama_mahasiswa, jumlah_kata_perhalaman
+behavior : isiAtribut, displayPesan
