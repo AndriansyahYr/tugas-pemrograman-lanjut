@@ -1,0 +1,5 @@
+IDENTIFIKASI
+class		: seluruh mahasiswa
+objek		: mahasiswa 1, mahasiswa 2, mahasiswa 3, mahasiswa 4, mahasiswa 
+atribut 	: nama, NIM, jumlah_perhalaman
+behaviour	: halaman
