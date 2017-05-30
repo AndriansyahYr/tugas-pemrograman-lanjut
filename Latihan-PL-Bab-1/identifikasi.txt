@@ -1,0 +1,4 @@
+-Class : BukuTamu, Tamu
+-Object : input, inputStr, tamu
+-atribut : sNama, sNim, iKata
+-behavior : getNama, getNim, getJumlahHalaman, main 
