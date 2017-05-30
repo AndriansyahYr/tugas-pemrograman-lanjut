@@ -1,0 +1,4 @@
+class : MainMahasiswa, Mahasiswa
+object : Mahasiswa
+atribut : nim, nama_mahasiswa, jumlah_kata_perhalaman, jumlah_mahasiswa
+behavior : InsertDataMahasiswa, DisplayJumlahKata
