@@ -2,9 +2,9 @@
 
 ## Deskripsi Soal ##
 
-Terdapat 5 mahasiswa, mereka mendapatkan sebuah tugas menulis cerpen pada buku. setiap mahasiswa memiliki perbedaan dalam hal penulisan dan jumlah kata yang dituliskan setiap halamannya (misalkan 1 halaman di habiskan 100 kata untuk mahasiswa 1) ketentuan jumlah kata perhalaman adalah 100<kata<500. Jumlah halaman untuk setiap buku yang diberikan adalah 30 halaman dan bersifat tetap artinya tidak berubah jumlah halamannya. buku yang di berikan memiliki beberapa karakteristik seperti kata per halaman. output dari kasus di atas adalah  jumlah kata dari setiap mahasiswa yang mereka tuliskan
+Terdapat 5 mahasiswa, mereka mendapatkan sebuah tugas menulis cerpen pada buku. setiap mahasiswa memiliki perbedaan dalam hal penulisan dan jumlah kata yang dituliskan setiap halamannya (misalkan 1 halaman di habiskan 100 kata untuk mahasiswa 1) ketentuan jumlah kata perhalaman adalah 100<kata<500. Jumlah halaman untuk setiap buku yang diberikan adalah 30 halaman dan bersifat tetap artinya tidak berubah jumlah halamannya. buku yang di berikan memiliki beberapa karakteristik seperti kata per halaman. output dari kasus di atas adalah  jumlah kata dari setiap mahasiswa yang mereka tuliskan.
 tugas kalian adalah
-1. identifikasi class, object, method dan attribut pada kasus di atas.
+1. 	1identifikasi class, object, method dan attribut pada kasus di atas.
 2. implementasi program dari kasus di atas.
 
 ```
