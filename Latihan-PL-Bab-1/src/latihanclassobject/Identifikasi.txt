@@ -1,0 +1,4 @@
+Class : MahasiswaInput
+Object : input_data dan output_data
+Atribut : String nim, String nama_mahasiswa, int jumlahkata dan int totalkata
+Behavior : Untuk menginputkan data mahasiswa dari user dan mengoutputkan hasil berupa nama dan Total kata
