@@ -1,0 +1,19 @@
+class
+-buku cerpen
+
+object
+-5 Mahasiswa (paijo,paijo,lulu,lala,lili)
+
+Atribut
+-Nama,Nim,Jumlah kata yang ditulis
+
+Tingkah laku
+-jumlah kata kata yang ditulis masing masing mahasiswa
+paijo - 200
+paijo - 900
+lulu - 200
+lala - 350
+lili - 250
+
+
+
