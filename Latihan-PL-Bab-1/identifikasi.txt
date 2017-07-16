@@ -1,0 +1,4 @@
+Class 		: Mahasiswa
+Object 		: Nama mahasiswa
+Attribut 	: NIM, jumlah kata/halaman, jumlah semua kata
+Behavior	: untuk memberikan keterangan nim, untuk mengetahui jumlah kata yang telah diketik per halaman, untuk mengetahui jumlah kata yang telah diketik pada halaman yang telah ditentukan. 
