@@ -1,0 +1,4 @@
+Class		: LatihanBab1, Test
+Object 		: objek1
+Method 		: getinputData, Tampilkan
+Attribut 	: Nama, NIM, Jumlah Kata perhalaman
